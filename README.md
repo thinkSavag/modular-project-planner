@@ -9,7 +9,7 @@ This is a modular project‐planning tool intended to guide users step‐by‐st
 The issues start at the beginning: Deprived of access.
 To kick-start this project, the first modulated project is based on access to digital resources in a landscape that is often changing.
 
-<img src ="assets\images\README-cover.png.png">
+<img src ="assets\images\README-cover.png">
 
 Solutions to solve today. Breadcrumbs left behind for tomorrow.
 
