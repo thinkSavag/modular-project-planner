@@ -1,0 +1,19 @@
+# Ignore everything by default
+*
+
+# Allow specific tracked items
+!.gitignore
+!README.md
+
+# Assets (images, etc.)
+!assets/
+!assets/images/
+!assets/images/README-cover.png
+
+# Docs
+!docs/
+!docs/micro-projects.md
+
+# TEMP: Hide these
+ProjectTemplate.md
+StartHereGuide.md
