@@ -18,12 +18,9 @@
 # Include GitHub config directory (branch rules, workflows, etc.)
 !.github/
 !.github/rulesets/
-!.github/rulesets/Protect Main Branch.json
-!.github/rulesets/Security.md
+!.github/rulesets/branch-protection-ruleset.json
+!.github/Security.md
 
 # TEMP: Hide these
-ProjectTemplate.md
-StartHereGuide.md
-.github/workflows/
 .github/workflows/
 .github/pull_request_template.md

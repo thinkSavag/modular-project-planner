@@ -55,8 +55,11 @@ You can clone or download this tagged layer to begin a fresh build using just th
 <summary><strong>🔒 Governance</strong></summary>
 
 This repository follows a protected-branch ruleset to maintain integrity across all core modules.  
-- 🔐 [Branch Protection Ruleset](.github/rulesets/ProtectMainBranch.json)  
-- 🛡️ [Security Policy](.github/SECURITY.md)  
+- 🔐 [Branch Protection Ruleset](.github/rulesets/branch-protection-ruleset.json)
+- 🛡️ [Security Policy](.github/rulesets/SECURITY.md)  
 - ✍️ [Contribution Guidelines](CONTRIBUTING.md)
 
 </details>
+
+© 2025 Missa.
+Last updated: June 10, 2025
