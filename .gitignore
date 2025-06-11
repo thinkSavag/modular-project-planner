@@ -17,6 +17,10 @@
 !docs/micro-projects.md
 !docs/StartHereExample.md
 
+# src
+!src/
+!src/app.md
+
 # Include GitHub config directory (branch rules, workflows, etc.)
 !.github/
 !.github/rulesets/
@@ -26,3 +30,4 @@
 
 # TEMP: Hide these
 .github/workflows/
+src/README.md
