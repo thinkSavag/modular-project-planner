@@ -41,7 +41,7 @@ You can clone or download this tagged layer to begin a fresh build using just th
 <details open>
 <summary><strong>4. 📌 Current Snapshot</strong></summary>
 
-[![Tag: foundation-layer](https://img.shields.io/badge/tag-foundation--layer-blue?style=flat-square)](https://github.com/thinkSavag/modular-project-planner/tree/foundation-layer)
+[![Tag: foundation-layer](https://img.shields.io/badge/tag-foundation--layer-blue?style=flat-square)](https://github.com/thinkSavag/modular-project-planner/docs/micro-projects.md)
 
 > **foundation-layer**: Core structure + modular scaffolding established.  
 > Optional components tucked away for rebuild clarity.  
@@ -60,6 +60,8 @@ This repository follows a protected-branch ruleset to maintain integrity across 
 - ✍️ [Contribution Guidelines](CONTRIBUTING.md)
 
 </details>
+
+---
 
 © 2025 Missa.
 Last updated: June 10, 2025
