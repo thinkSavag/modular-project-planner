@@ -26,7 +26,7 @@ This repository uses branch protection on the `main` branch to:
 - Prevent deletion of core branches
 
 You can view the current ruleset here:  
-[ProtectMainBranch.json](./rulesets/ProtectMainBranch.json)
+[Branch Protection Ruleset](.github/rulesets/branch-protection-ruleset.json)
 
 ---
 
