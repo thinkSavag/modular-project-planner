@@ -1,6 +1,62 @@
-# Quick Start
+# 🧠 Application Map – Modular Logic Guide
 
-Welcome! This guide will help you get up and running with the Modular Project Planner project as quickly and seemlessly as possible. Simply download the starter kit from GitHub and follow these steps. 
+This document outlines how the Modular Project Planner application is structured inside `/src`.
+
+This guide will help you get up and running with the Modular Project Planner project as quickly and seamlessly as possible and how the Modular Project Planner application will be structured inside `/src`.
+
+---
+
+## 🔗 Exclusive Entry Point (Current Version)
+
+### `app.md`
+- Provides Information
+- Lists different paths to choose from. No active functions are associated.
+
+---
+
+## 🔗 Next List of Releases that Will Be Available
+
+
+### 🔗 Core Entry Point
+
+### `app.py`
+- Main orchestration layer
+- Imports, chains, and triggers modules
+- Coordinates between planning logic and API outputs (Flowise, Notion, etc.)
+
+### 🔧 Subdirectories
+
+### `functions/`
+Reusable logic blocks:
+- `date_utils.py` – cleans or validates date fields
+- `validator.py` – applies sanity rules to parsed project data
+- `logic_engine.py` – routes flags, contradictions, or access failures
+
+#### `modules/`
+Future-ready folders for:
+- `timeline_builder.py`
+- `checklist_generator.py`
+- `micro_project_launcher.py`
+
+#### `parsers/`
+If you're pulling structured data (e.g., PDFs, form entries):
+- Each parser can handle specific source types or input formats
+
+---
+
+## ⚙️ Logic Flow (example)
+
+1. `app.py` pulls user input or pre-filled template
+2. Validates w/ `validator.py`
+3. Passes to `logic_engine.py`
+4. Feeds result to appropriate generator (`checklist`, `timeline`, etc.)
+
+---
+
+## ✨ Next Milestone
+
+MPP will route a micro-project intake through:
+- Validation → Flagging → Optional Suggestion → JSON export
 
 ---
 
