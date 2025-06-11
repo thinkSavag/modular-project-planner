@@ -4,16 +4,26 @@
 # Always allow these baseline files
 !.gitignore
 !README.md
+!CONTRIBUTING.md
 
 # Assets (images, etc.)
-#assets/
-#assets/images/
-#assets/images/README-cover.png
+!assets/
+!assets/images/
+!assets/images/README-cover.png
 
 # Docs
-#docs/
-#docs/micro-projects.md
+!docs/
+!docs/micro-projects.md
+
+# Include GitHub config directory (branch rules, workflows, etc.)
+!.github/
+!.github/rulesets/
+!.github/rulesets/Protect Main Branch.json
+!.github/rulesets/Security.md
 
 # TEMP: Hide these
-#ProjectTemplate.md
-#StartHereGuide.md
+ProjectTemplate.md
+StartHereGuide.md
+.github/workflows/
+.github/workflows/
+.github/pull_request_template.md
